@@ -1,0 +1,46 @@
+@include arrow();
+
+.bg-blue {
+    background-color: #032685d5;
+
+    .font-head {
+        font-size: 1.1rem;
+
+        .feedback {
+            padding: 1px;
+            border-bottom: 1px solid white;
+        }
+    }
+
+    .input {
+        padding: 5px;
+        background-color: black;
+        border: 1px solid gray;
+        outline: none;
+        width: 258px;
+        @include focus();
+
+    }
+
+    .img {
+        height: 3.8rem;
+    }
+
+    .dropdown-toggle {
+        border: none;
+    }
+
+    .dropdown-header {
+        cursor: pointer;
+    }
+
+    li {
+        padding: 5px;
+    }
+
+    .down {
+        &:hover {
+            border-bottom: 3px dotted white;
+        }
+    }
+}

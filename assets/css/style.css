@@ -1,0 +1,47 @@
+.bi-arrow-right {
+  background-color: orangered;
+  border-radius: 50%;
+  padding: 1px 3px;
+  font-size: 12px;
+}
+.bi-arrow-right:hover {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: rgba(3, 38, 133, 0.8352941176);
+}
+.bg-blue .font-head {
+  font-size: 1.1rem;
+}
+.bg-blue .font-head .feedback {
+  padding: 1px;
+  border-bottom: 1px solid white;
+}
+.bg-blue .input {
+  padding: 5px;
+  background-color: black;
+  border: 1px solid gray;
+  outline: none;
+  width: 258px;
+}
+.bg-blue .input:focus-visible {
+  border: 1px solid blue;
+}
+.bg-blue .img {
+  height: 3.8rem;
+}
+.bg-blue .dropdown-toggle {
+  border: none;
+}
+.bg-blue .dropdown-header {
+  cursor: pointer;
+}
+.bg-blue li {
+  padding: 5px;
+}
+.bg-blue .down:hover {
+  border-bottom: 3px dotted white;
+}
+
+/*# sourceMappingURL=style.css.map */
