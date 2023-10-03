@@ -66,16 +66,35 @@
 }
 
 .down:hover {
-  border-bottom: 2px dotted white;
+  border-bottom: 1px dotted white;
 }
 
 ul {
   list-style: none;
-  gap: 1rem;
+  gap: 1.3rem;
 }
 
 .line {
   border: 1px solid rgb(255, 204, 204);
+}
+
+#arrow {
+  cursor: pointer;
+}
+
+#arrow-2 {
+  display: none;
+  cursor: pointer;
+}
+
+#list-2 {
+  display: none;
+}
+
+@media screen and (max-width: 990px) {
+  .media {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
