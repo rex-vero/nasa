@@ -1,10 +1,10 @@
-.bi-arrow-right {
+.arrow {
   background-color: orangered;
   border-radius: 50%;
   padding: 1px 3px;
   font-size: 12px;
 }
-.bi-arrow-right:hover {
+.arrow:hover {
   background-color: red;
 }
 
@@ -26,7 +26,20 @@
   width: 258px;
 }
 .bg-blue .input:focus-visible {
-  border: 1px solid blue;
+  border: 1px solid rgb(0, 110, 255);
+}
+.bg-blue .input-2 {
+  padding: 5px;
+  background-color: black;
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+  width: 258px;
+}
+.bg-blue .input-2:focus-visible {
+  border: 1px solid rgb(0, 110, 255);
+}
+.bg-blue .gray {
+  color: rgb(65, 64, 64);
 }
 .bg-blue .img {
   height: 3.8rem;
@@ -40,8 +53,29 @@
 .bg-blue li {
   padding: 5px;
 }
-.bg-blue .down:hover {
-  border-bottom: 3px dotted white;
+.bg-blue #cross {
+  margin-left: 6px;
+  display: none;
+}
+.bg-blue .tr-hover:hover {
+  background-color: #c2c2c2;
+}
+
+#list {
+  display: none;
+}
+
+.down:hover {
+  border-bottom: 2px dotted white;
+}
+
+ul {
+  list-style: none;
+  gap: 1rem;
+}
+
+.line {
+  border: 1px solid rgb(255, 204, 204);
 }
 
 /*# sourceMappingURL=style.css.map */

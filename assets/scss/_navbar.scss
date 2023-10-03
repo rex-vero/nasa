@@ -22,6 +22,20 @@
 
     }
 
+    .input-2 {
+        padding: 5px;
+        background-color: black;
+        border: 1px solid rgb(0, 0, 0);
+        outline: none;
+        width: 258px;
+        @include focus();
+
+    }
+
+    .gray {
+        color: rgb(65, 64, 64);
+    }
+
     .img {
         height: 3.8rem;
     }
@@ -38,9 +52,31 @@
         padding: 5px;
     }
 
-    .down {
+    #cross {
+        margin-left: 6px;
+        display: none;
+    }
+
+    .tr-hover {
         &:hover {
-            border-bottom: 3px dotted white;
+            background-color: #c2c2c2;
         }
     }
+
+}
+#list{
+    display: none;
+}
+.down {
+    &:hover {
+        border-bottom: 2px dotted white;
+    }
+}
+ul{
+    list-style: none;
+    gap: 1rem;
+}
+.line{
+    border: 1px solid rgb(255, 204, 204);
+    
 }
