@@ -64,35 +64,63 @@
     }
 
 }
-#list{
+
+#list {
     display: none;
 }
+
 .down {
     &:hover {
         border-bottom: 1px dotted white;
     }
 }
-ul{
+
+.space {
     list-style: none;
     gap: 1.3rem;
 }
-.line{
-    border: 1px solid rgb(255, 204, 204);
-    
+
+.space-2 {
+    list-style: none;
+    gap: 0.99999rem;
 }
-#arrow{
+
+.line {
+    border: 1px solid rgb(255, 204, 204);
+
+}
+
+#arrow {
     cursor: pointer;
 }
-#arrow-2{
+
+#arrow-2 {
     display: none;
     cursor: pointer;
 }
-#list-2{
+
+#list-2 {
     display: none;
 }
 
-    @media screen and (max-width:990px) {
-        .media{
-            display: none;
-        }
-    }
+.list {
+    display: flex;
+}
+
+.list-img {
+    width: 17rem;
+    height: 24rem;
+}
+
+.img-list {
+    height: 14em;
+}
+
+.line-2 {
+    border-right: 1px solid #5c5c5c;
+    padding-right: 13px;
+}
+
+.fs {
+    font-size: 13px;
+}

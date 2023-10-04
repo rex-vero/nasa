@@ -1,0 +1,47 @@
+.nasa {
+    background-image: url("../photos/nasa-main.jpg");
+    @include img();
+}
+
+.plane {
+    background-image: url("../photos/plane-main.jpg");
+    @include img();
+    display: none;
+}
+
+.astroid {
+    background-image: url("../photos/astroid-main.jpg");
+    @include img();
+    display: none;
+}
+
+.rex {
+    background-image: url("../photos/osiris-rex-main.jpg");
+    @include img();
+    display: none;
+}
+
+.small {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.text {
+    margin-top: 130px;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: orangered;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 24px;
+
+    &:hover {
+        background-color: red;
+    }
+
+}

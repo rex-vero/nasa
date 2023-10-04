@@ -69,9 +69,14 @@
   border-bottom: 1px dotted white;
 }
 
-ul {
+.space {
   list-style: none;
   gap: 1.3rem;
+}
+
+.space-2 {
+  list-style: none;
+  gap: 0.99999rem;
 }
 
 .line {
@@ -91,10 +96,104 @@ ul {
   display: none;
 }
 
-@media screen and (max-width: 990px) {
-  .media {
-    display: none;
-  }
+.list {
+  display: flex;
+}
+
+.list-img {
+  width: 17rem;
+  height: 24rem;
+}
+
+.img-list {
+  height: 14em;
+}
+
+.line-2 {
+  border-right: 1px solid #5c5c5c;
+  padding-right: 13px;
+}
+
+.fs {
+  font-size: 13px;
+}
+
+.nasa {
+  background-image: url("../photos/nasa-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+}
+
+.plane {
+  background-image: url("../photos/plane-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+  display: none;
+}
+
+.astroid {
+  background-image: url("../photos/astroid-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+  display: none;
+}
+
+.rex {
+  background-image: url("../photos/osiris-rex-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: -1;
+  display: none;
+}
+
+.small {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+.text {
+  margin-top: 130px;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: orangered;
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 24px;
+}
+.button:hover {
+  background-color: red;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(3, 38, 133, 0.8352941176);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 25, 94, 0.8352941176);
 }
 
 /*# sourceMappingURL=style.css.map */
