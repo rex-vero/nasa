@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .arrow {
   background-color: orangered;
   border-radius: 50%;
@@ -123,7 +127,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   z-index: -1;
 }
 
@@ -132,7 +136,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   z-index: -1;
   display: none;
 }
@@ -142,7 +146,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   z-index: -1;
   display: none;
 }
@@ -152,7 +156,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
   z-index: -1;
   display: none;
 }
@@ -161,12 +165,16 @@
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   cursor: pointer;
 }
 
 .text {
   margin-top: 130px;
+}
+
+.text-2 {
+  margin-top: 100px;
 }
 
 .button {
@@ -178,6 +186,12 @@
 }
 .button:hover {
   background-color: red;
+}
+
+.border-up {
+  border-top: 1px solid rgb(148, 148, 148);
+  margin-top: 35px;
+  padding: 5px;
 }
 
 ::-webkit-scrollbar {
