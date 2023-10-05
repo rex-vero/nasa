@@ -210,4 +210,49 @@ html {
   background-color: rgba(0, 25, 94, 0.8352941176);
 }
 
+.news {
+  position: relative;
+  height: 23rem;
+  width: 100%;
+}
+
+.txt {
+  font-size: 14px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.txt-2 {
+  position: absolute;
+  font-size: 14px;
+  left: 20px;
+  bottom: 40px;
+}
+
+.text-3 {
+  position: absolute;
+  left: 20px;
+  bottom: -7px;
+}
+
+.height {
+  height: 6rem;
+}
+
+.body {
+  background-image: url("../photos/web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  z-index: -1;
+}
+
+@media screen and (max-width: 990px) {
+  .margin {
+    margin-top: 130px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
