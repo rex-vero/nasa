@@ -43,3 +43,20 @@
         
     }
 }
+.download{
+    position: absolute;
+    color: #ffffff;
+    top: -100px;
+    right: 25px;
+    padding: 0 5px;
+    border-radius: 50%;
+    font-size: 25px;
+
+}
+.earth{
+    background-image: url("../photos/earth.jpg");
+   @include img();
+}
+.upper{
+    margin-top: 310px;
+}

@@ -254,5 +254,27 @@ html {
     margin-top: 130px;
   }
 }
+.download {
+  position: absolute;
+  color: #ffffff;
+  top: -100px;
+  right: 25px;
+  padding: 0 5px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+.earth {
+  background-image: url("../photos/earth.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  z-index: -1;
+}
+
+.upper {
+  margin-top: 310px;
+}
 
 /*# sourceMappingURL=style.css.map */
