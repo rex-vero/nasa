@@ -1,0 +1,49 @@
+.hover {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.bi-facebook {
+    color: #fff;
+
+    &:hover {
+        color: blue;
+    }
+}
+
+.bi-instagram {
+    color: #fff;
+
+    &:hover {
+        color: rgb(112, 13, 204);
+    }
+}
+
+.bi-twitter-x {
+    color: #fff;
+
+    &:hover {
+        color: rgb(0, 0, 0);
+    }
+}
+
+.bi-youtube {
+    color: #fff;
+
+    &:hover {
+        color: red;
+    }
+}
+
+.back {
+    background-color: rgb(88, 88, 88);
+    padding: 3px 8px;
+    border-radius: 50%;
+}
+.logo{
+    height: 10rem;
+    width: 10rem;
+}

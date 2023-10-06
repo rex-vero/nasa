@@ -200,6 +200,7 @@ html {
 
 ::-webkit-scrollbar-track {
   background-color: #000000;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -254,16 +255,6 @@ html {
     padding-top: 100px;
   }
 }
-.download {
-  position: absolute;
-  color: #ffffff;
-  top: -100px;
-  right: 25px;
-  padding: 0 5px;
-  border-radius: 50%;
-  font-size: 25px;
-}
-
 .earth {
   background-image: url("../photos/earth.jpg");
   background-position: center;
@@ -287,7 +278,64 @@ html {
 }
 
 .up {
-  padding-top: 150px;
+  padding-top: 160px;
+}
+
+.height-2 {
+  height: 12.4rem;
+  width: 100%;
+}
+
+.position {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+}
+
+.hover {
+  text-decoration: none;
+}
+.hover:hover {
+  text-decoration: underline;
+}
+
+.bi-facebook {
+  color: #fff;
+}
+.bi-facebook:hover {
+  color: blue;
+}
+
+.bi-instagram {
+  color: #fff;
+}
+.bi-instagram:hover {
+  color: rgb(112, 13, 204);
+}
+
+.bi-twitter-x {
+  color: #fff;
+}
+.bi-twitter-x:hover {
+  color: rgb(0, 0, 0);
+}
+
+.bi-youtube {
+  color: #fff;
+}
+.bi-youtube:hover {
+  color: red;
+}
+
+.back {
+  background-color: rgb(88, 88, 88);
+  padding: 3px 8px;
+  border-radius: 50%;
+}
+
+.logo {
+  height: 10rem;
+  width: 10rem;
 }
 
 /*# sourceMappingURL=style.css.map */

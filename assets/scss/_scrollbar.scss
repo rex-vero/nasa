@@ -1,13 +1,17 @@
 ::-webkit-scrollbar {
     width: 7px;
 }
-::-webkit-scrollbar-track{
-background-color: #000000;
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+    border-radius: 5px;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background-color: #032685d5;
     border-radius: 5px;
-    &:hover{
+
+    &:hover {
         background-color: #00195ed5;
     }
 }
