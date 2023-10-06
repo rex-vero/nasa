@@ -38,12 +38,12 @@
 }
 
 @media screen and (max-width:990px) {
-    .margin{
-        margin-top: 130px;
-        
+    .margin {
+        padding-top: 100px;
     }
 }
-.download{
+
+.download {
     position: absolute;
     color: #ffffff;
     top: -100px;
@@ -53,10 +53,25 @@
     font-size: 25px;
 
 }
-.earth{
+
+.earth {
     background-image: url("../photos/earth.jpg");
-   @include img();
+    @include img();
 }
-.upper{
+
+.upper {
     margin-top: 310px;
+}
+
+.hubble {
+    background-image: url("../photos/hubble_33rd.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    z-index: -1;
+}
+
+.up {
+    padding-top: 150px;
 }
